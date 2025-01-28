@@ -1022,8 +1022,8 @@ periodics:
   cluster: k8s-infra-prow-build
   name: ci-kubernetes-benchmark-list
   tags:
-    - "perfDashPrefix: benchmark list"
-    - "perfDashJobType: performance"
+    - "perfDashPrefix: benchmark-list"
+    - "perfDashJobType: benchmark-list"
   labels:
     preset-service-account: "true"
     preset-k8s-ssh: "true"
